@@ -45,3 +45,294 @@ Read port: 51577
 1650429702446	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
 1650429704101	Marionette	INFO	Stopped listening on port 51577
+1652085133034	geckodriver	INFO	Listening on 127.0.0.1:50860
+1652085181149	geckodriver	INFO	Listening on 127.0.0.1:59886
+1652085209097	geckodriver	INFO	Listening on 127.0.0.1:59893
+1652085671340	geckodriver	INFO	Listening on 127.0.0.1:62392
+1652085747797	geckodriver	INFO	Listening on 127.0.0.1:62404
+1652086042441	geckodriver	INFO	Listening on 127.0.0.1:56747
+1652086045458	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56748" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofileIBodH2"
+1652086067375	geckodriver	INFO	Listening on 127.0.0.1:62472
+1652086070431	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62473" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofileNBfdL2"
+1652086070739	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofileNBfdL2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62473/devtools/browser/bc85c9c2-0543-43f0-a4b3-936b18a332af
+1652086072335	Marionette	INFO	Listening on port 62492
+Read port: 62492
+1652086072428	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://selenium1py.pythonanywhere.com"
+1652086075909	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652086080564	Marionette	INFO	Stopped listening on port 62492
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1189: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1057: AbortError: Actor 'Prompt' destroyed before query 'Prompt:Open' was resolved
+1652086228738	geckodriver	INFO	Listening on 127.0.0.1:56236
+1652086231763	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56237" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofileBibM0u"
+1652086232051	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofileBibM0u\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56237/devtools/browser/ccb019f5-dc2b-4ef1-b6af-912fbf1d19fe
+1652086233539	Marionette	INFO	Listening on port 56251
+Read port: 56251
+1652086233587	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://selenium1py.pythonanywhere.com"
+1652086238747	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652086243441	Marionette	INFO	Stopped listening on port 56251
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1189: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1057: AbortError: Actor 'Prompt' destroyed before query 'Prompt:Open' was resolved
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652086319245	geckodriver	INFO	Listening on 127.0.0.1:57208
+1652086322287	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57209" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofileBxYHzr"
+1652086322576	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofileBxYHzr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57209/devtools/browser/51d51b96-cf53-44a6-9ad0-c8e1af132768
+1652086324168	Marionette	INFO	Listening on port 57227
+Read port: 57227
+1652086324262	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652086343019	Marionette	INFO	Stopped listening on port 57227
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652086353196	geckodriver	INFO	Listening on 127.0.0.1:57252
+1652086356262	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57253" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofilermNGYb"
+1652086356545	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofilermNGYb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57253/devtools/browser/7c9537d0-8dc2-45eb-a1c3-d3a1a35915f9
+1652086358007	Marionette	INFO	Listening on port 57271
+Read port: 57271
+1652086358078	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://selenium1py.pythonanywhere.com"
+1652086361141	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652086419550	Marionette	INFO	Stopped listening on port 57271
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652086831945	geckodriver	INFO	Listening on 127.0.0.1:51966
+1652086835002	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51967" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofilep97aVT"
+1652086835335	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofilep97aVT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51967/devtools/browser/8522fed2-458a-4c62-b07c-04a2665501e6
+1652086837160	Marionette	INFO	Listening on port 51984
+Read port: 51984
+1652086837263	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://selenium1py.pythonanywhere.com"
+1652086842231	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652086846899	Marionette	INFO	Stopped listening on port 51984
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1189: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: resource:///actors/PromptParent.jsm, line 279: Error: Cannot content-prompt without a browser!
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652086934387	geckodriver	INFO	Listening on 127.0.0.1:52017
+1652086937415	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52018" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofilesbOnjB"
+1652086937721	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofilesbOnjB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52018/devtools/browser/9bf959b2-4311-4703-8d37-06aa6d2d40e7
+1652086939374	Marionette	INFO	Listening on port 52033
+Read port: 52033
+1652086939457	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://selenium1py.pythonanywhere.com"
+1652086943647	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652086948402	Marionette	INFO	Stopped listening on port 52033
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1189: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1652087028262	geckodriver	INFO	Listening on 127.0.0.1:62251
+1652087031288	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62252" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofileFbxhc1"
+1652087031565	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofileFbxhc1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62252/devtools/browser/2f8008a5-13b1-4757-bed5-2b473363cb65
+1652087032986	Marionette	INFO	Listening on port 62269
+Read port: 62269
+1652087033046	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://selenium1py.pythonanywhere.com"
+1652087035179	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652087049855	Marionette	INFO	Stopped listening on port 62269
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652087060915	geckodriver	INFO	Listening on 127.0.0.1:62302
+1652087063954	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62303" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofilevwe2q7"
+1652087064232	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofilevwe2q7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62303/devtools/browser/e9fa9267-c3ac-49d5-9d40-4a55ed3788de
+1652087065797	Marionette	INFO	Listening on port 62321
+Read port: 62321
+1652087065868	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://selenium1py.pythonanywhere.com"
+1652087069633	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652087081353	Marionette	INFO	Stopped listening on port 62321
+1652087117631	geckodriver	INFO	Listening on 127.0.0.1:62354
+1652087120661	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62355" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofiler9RVFi"
+1652087120952	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofiler9RVFi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62355/devtools/browser/3b8555af-d01f-4d24-82a0-9358bef045c6
+1652087122407	Marionette	INFO	Listening on port 62370
+Read port: 62370
+1652087122442	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://selenium1py.pythonanywhere.com"
+1652087124603	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652087134245	Marionette	INFO	Stopped listening on port 62370
+1652087167476	geckodriver	INFO	Listening on 127.0.0.1:62399
+1652087170524	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62400" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofilegSDaw8"
+1652087170804	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofilegSDaw8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62400/devtools/browser/9411632d-270b-4c24-a6a5-462a985fcc78
+1652087172283	Marionette	INFO	Listening on port 62417
+Read port: 62417
+1652087172354	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://selenium1py.pythonanywhere.com"
+1652087175520	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652087182188	Marionette	INFO	Stopped listening on port 62417
+[Parent 3188, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652087711966	geckodriver	INFO	Listening on 127.0.0.1:58771
+1652087715014	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58772" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofileiIgbtE"
+1652087715293	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofileiIgbtE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58772/devtools/browser/2666ea47-4b94-4cbf-be05-e87fabd6f0e7
+1652087716922	Marionette	INFO	Listening on port 58786
+Read port: 58786
+1652087716994	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://selenium1py.pythonanywhere.com"
+1652087721932	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear, line 718: ReferenceError: oscar is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/87D0VuGGyd8o4x1zT1VlOmQj8xrGMl1xcSeEyGhgSwY.js line 1 > eval line 308 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear, line 648: ReferenceError: oscar is not defined
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652101918028	Marionette	INFO	Stopped listening on port 58786
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+t 53291
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652088364446	geckodriver	INFO	Listening on 127.0.0.1:54039
+1652088367479	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54040" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofilevKADeo"
+1652088367755	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofilevKADeo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54040/devtools/browser/1ec71712-20c9-4c9f-8ef9-fda88b0ce32c
+1652088369444	Marionette	INFO	Listening on port 54055
+Read port: 54055
+1652088369493	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://selenium1py.pythonanywhere.com"
+1652088371574	Marionette	INFO	Stopped listening on port 54055
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Aleksey\AppData\Local\Temp\rust_mozprofilevKADeo\protections.sqlite
+1652088458801	geckodriver	INFO	Listening on 127.0.0.1:54074
+1652088461820	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54075" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofileVYvj0t"
+1652088462096	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofileVYvj0t\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54075/devtools/browser/7bce8f4b-ab17-47ad-800a-1e220b4e5c59
+1652088463657	Marionette	INFO	Listening on port 61761
+Read port: 61761
+1652088463731	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://selenium1py.pythonanywhere.com"
+1652088468648	Marionette	INFO	Stopped listening on port 61761
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1652088757309	geckodriver	INFO	Listening on 127.0.0.1:53705
+1652088760354	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53706" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofileLNWTGf"
+1652088760630	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofileLNWTGf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53706/devtools/browser/b52eddbb-fa99-45d4-9456-f93f233bc698
+1652088762369	Marionette	INFO	Listening on port 53722
+Read port: 53722
+1652088762466	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://selenium1py.pythonanywhere.com"
+1652088766215	Marionette	INFO	Stopped listening on port 53722
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Aleksey\AppData\Local\Temp\rust_mozprofileLNWTGf\protections.sqlite
+1652090931432	geckodriver	INFO	Listening on 127.0.0.1:54903
+1652090934470	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54904" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofileumCn5t"
+1652090935198	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aleksey\\AppData\\Local\\Temp\\rust_mozprofileumCn5t\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54904/devtools/browser/ac2c3dd7-131b-4665-aeb8-91a28ec68f6a
+1652090936770	Marionette	INFO	Listening on port 54918
+Read port: 54918
+1652090936865	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://selenium1py.pythonanywhere.com"
+1652090940730	Marionette	INFO	Stopped listening on port 54918
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+

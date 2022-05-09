@@ -12,7 +12,7 @@ def pytest_addoption(parser):
                      help="Choose browser: chrome or firefox")
     parser.addoption('--languages',
                      action='store',
-                     default=None,
+                     default="en",
                      help="Choose user languages: en/ru/es.....(etc)")
 
 # --tb=line -уменьшает количество логов в консоле
