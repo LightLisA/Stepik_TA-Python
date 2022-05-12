@@ -15,8 +15,11 @@ def test_guest_can_add_product_to_basket(browser, url):
     # функция
 
 Комментарии:
-1.  url_list                         :    Сначала генерируем список URL страниц
-2. url_list_with_xfail  :    Создаем новый список на основе первого, где помечаем URL, на котором тест падает, как xfail (как в конце этого урока). Не забудьте подставить нужный N :) Подробнее о методе: Finding and replacing elements in a list
+1.  url_list             :    Сначала генерируем список URL страниц
+2. url_list_with_xfail   :    Создаем новый список на основе первого, где помечаем URL, на котором тест падает, 
+                                как xfail (как в конце этого урока). Не забудьте подставить нужный N :) 
+                              Подробнее о методе: Finding and replacing elements in a list - 
+                                https://stackoverflow.com/questions/2582138/finding-and-replacing-elements-in-a-list
 3. Запускаем тест!"""
 
 @pytest.mark.parametrize('ids', masiv)
