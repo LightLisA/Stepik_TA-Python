@@ -1,9 +1,17 @@
+import pytest
+
 from pages.product_page import PageObject
 
+masiv = [pytest.param(i, marks=pytest.mark.xfail(i == 7, reason="Some Bug")) for i in range(10)]
+# masiv = [0, 1, 2, 3, 4, 5, 6, pytest.param(7, marks=pytest.mark.xfail(reason="some bug")), 8, 9])
 
-def test_guest_can_add_product_to_basket(browser):
-    link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=newYear2019"
-    page = PageObject(browser, link)  # инициализируем Page Object, передаем в конструктор экземпляр драйвера и url адрес
+
+@pytest.mark.parametrize('ids',
+                         masiv)
+def test_guest_can_add_product_to_basket(browser, ids):
+    link = f"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer{ids}"
+    page = PageObject(browser,
+                      link)  # инициализируем Page Object, передаем в конструктор экземпляр драйвера и url адрес
 
     print(f'browser==== {browser},'
           f'link === {link}')

@@ -12,7 +12,7 @@ class BasketSelector():
 
 
 class PageObject(BasePage):
-    def add_to_basket(self, REMEMBER_BOOK_NAME, REMEMBER_BOOK_PRICE):
+    def add_to_basket(self):
         self.browser.find_element(*BasketSelector.ADD_TO_BASKET).click()
 
     def check_name_book_and_price(self):
