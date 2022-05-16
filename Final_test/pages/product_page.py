@@ -1,8 +1,9 @@
 from .base_page import BasePage
 from selenium.webdriver.common.by import By
+from .locators import ProductPageLocators
 
 
-class BasketSelector():
+class BasketSelector:
     ADD_TO_BASKET = (By.CSS_SELECTOR, ".btn-add-to-basket")
 
     BOOK_NAME = (By.CSS_SELECTOR, ".col-sm-6.product_main>h1")
@@ -11,7 +12,7 @@ class BasketSelector():
     BASKET_PRODUCTS = (By.CSS_SELECTOR, "#messages>div:nth-of-type(1)>.alertinner>strong")
 
 
-class PageObject(BasePage):
+class ProductPage(BasePage):
     def add_to_basket(self):
         self.browser.find_element(*BasketSelector.ADD_TO_BASKET).click()
 
@@ -22,5 +23,15 @@ class PageObject(BasePage):
         BASKET_TOTAL = self.browser.find_element(*BasketSelector.BASKET_TOTAL).text
         BASKET_PRODUCTS = self.browser.find_element(*BasketSelector.BASKET_PRODUCTS).text
 
-        assert REMEMBER_BOOK_NAME == BASKET_PRODUCTS, f'Book name {REMEMBER_BOOK_NAME} is not the equal book in basket {BASKET_PRODUCTS}'
-        assert REMEMBER_BOOK_PRICE == BASKET_TOTAL, f'Book Price = {REMEMBER_BOOK_PRICE} is not the same as in basket {BASKET_TOTAL}'
+        assert REMEMBER_BOOK_NAME == BASKET_PRODUCTS, \
+            f'Book name {REMEMBER_BOOK_NAME} is not the equal book in basket {BASKET_PRODUCTS}'
+        assert REMEMBER_BOOK_PRICE == BASKET_TOTAL, \
+            f'Book Price = {REMEMBER_BOOK_PRICE} is not the same as in basket {BASKET_TOTAL}'
+
+    def should_not_be_success_message(self):
+        assert self.is_not_element_present(*ProductPageLocators.SUCCESS_MESSAGE), \
+            "Success message is presented, but should not be"
+
+    def success_message_should_be_disappeared(self):
+        assert self.is_disappeared(*ProductPageLocators.SUCCESS_MESSAGE), \
+            "Success message is disappeared"
