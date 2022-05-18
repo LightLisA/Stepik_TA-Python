@@ -58,15 +58,17 @@ class BasePage:
             WebDriverWait(self.browser, timeout). \
                 until(EC.presence_of_element_located((how, what)))
         except TimeoutException:
-            print('TimeoutException == 4 sec')
-            return False
+            return True
 
-        return True
+        return False
 
     def open(self):
         """ Метод открывает нужную страницу, используя метод get()"""
         # print(f'BasePage ---- open - browser.get === {self.browser.get(self.url)}')
         self.browser.get(self.url)
+
+    def click_to_button(self, how, what):
+        self.browser.find_element(how, what).click()
 
     def should_be_login_link(self):
         assert self.is_element_present(*BasePageLocators.LOGIN_LINK), "Login link is not presented"

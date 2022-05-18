@@ -1,15 +1,6 @@
 from .base_page import BasePage
-from selenium.webdriver.common.by import By
 from .locators import ProductPageLocators
-
-
-class BasketSelector:
-    ADD_TO_BASKET = (By.CSS_SELECTOR, ".btn-add-to-basket")
-
-    BOOK_NAME = (By.CSS_SELECTOR, ".col-sm-6.product_main>h1")
-    BOOK_PRICE = (By.CSS_SELECTOR, ".col-sm-6.product_main>.price_color")
-    BASKET_TOTAL = (By.CSS_SELECTOR, ".alert-info>.alertinner>p>strong")
-    BASKET_PRODUCTS = (By.CSS_SELECTOR, "#messages>div:nth-of-type(1)>.alertinner>strong")
+from .locators import BasketSelector
 
 
 class ProductPage(BasePage):
