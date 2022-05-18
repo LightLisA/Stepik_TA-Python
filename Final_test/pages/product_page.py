@@ -5,7 +5,7 @@ from .locators import BasketSelector
 
 class ProductPage(BasePage):
     def add_to_basket(self):
-        self.browser.find_element(*BasketSelector.ADD_TO_BASKET).click()
+        self.click_to_button(*BasketSelector.ADD_TO_BASKET)
 
     def check_name_book_and_price(self):
         REMEMBER_BOOK_NAME = self.browser.find_element(*BasketSelector.BOOK_NAME).text

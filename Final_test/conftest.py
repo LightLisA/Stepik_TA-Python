@@ -7,13 +7,14 @@ def pytest_addoption(parser):
     parser.addoption('--browser_name',
                      action='store',
                      default="chrome",  # можно указывать 'имя броузера' по дефолту, None - нужно
-                                        # chrome - будет запускаться GoogleChrome по default
-                                        # None - нужно будет указывать браузер в консоле, как "--browser_name=chrome"
+                     # chrome - будет запускаться GoogleChrome по default
+                     # None - нужно будет указывать браузер в консоле, как "--browser_name=chrome"
                      help="Choose browser: chrome or firefox")
     parser.addoption('--language',
                      action='store',
                      default="en",
                      help="Choose user languages: en/ru/es.....(etc)")
+
 
 # --tb=line -уменьшает количество логов в консоле
 # --reruns 1 -количество перезапусков для упавших тестов
