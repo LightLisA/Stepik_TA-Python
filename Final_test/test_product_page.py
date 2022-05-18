@@ -35,6 +35,10 @@ class TestUserAddToBasketFromProductPage:
         reg = LoginPage(browser, link)
 
         RANDOM_EMAIL = f'testEmail{random.randint(0, 10)}@testmail.com'
+        # Генерировать email адреса для пользователей можно по-разному, один из вариантов:
+        #       import time # в начале файла
+        #       email = str(time.time()) + "@fakemail.org"
+        # или как ниже, через random
         RANDOM_PASSWORD = f'testPassword{random.randint(10, 100)}'
 
         page.open()
